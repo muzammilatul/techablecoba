@@ -15,7 +15,7 @@ blemachine-image.min.js"></script>
 <script type="text/javascript">
 const URL = "https://teachablemachine.withgoogle.com/models/HtTxn3rr8";
 let model, webcam, labelContainer, maxPredictions;
-  async function init() {
+async function init() {
 const modelURL = URL + "model.json";
 const metadataURL = URL + "metadata.json";
 model = await tmImage.load(modelURL, metadataURL);
